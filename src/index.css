@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #202124;
+  color: #5cc1c8;
 }
 
 h1,
@@ -19,7 +19,7 @@ button {
   display: flex;
   flex-direction: column;
   padding: 14px;
-  background: #eff6ff;
+  background: #101010;
   gap: 14px;
 }
 
@@ -41,9 +41,11 @@ header input {
   border-radius: 14px;
   outline: none;
   width: 100%;
+  margin-top: 2rem;
 }
 
 header button {
+  margin-top: 2rem;
   border-radius: 14px;
   background: transparent;
   transition-duration: 200ms;
@@ -59,7 +61,7 @@ header input {
   padding: 14px 18px;
   border: none;
   outline: none;
-  background: white;
+  background: #1d2021;
 }
 
 p {
@@ -78,9 +80,18 @@ p {
   gap: 14px;
   padding: 14px;
   border-radius: 14px;
-  background: white;
+  background: #1d2021;
   margin-bottom: 0.5rem;
   padding-left: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-right: 2rem;
+}
+
+.todoItem:first-child {
+  margin-top: 1.5rem;
 }
 
 .todoItem p {
@@ -113,4 +124,22 @@ p {
   p {
     font-size: 1em;
   }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0.25rem;
+  width: 100%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #307f85;
+}
+
+.icon {
+  scale: 1.2;
 }

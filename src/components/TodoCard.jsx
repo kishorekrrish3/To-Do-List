@@ -12,14 +12,14 @@ export default function TodoCard(props) {
             handleEditTodo(index);
           }}
         >
-          <i className="fa-regular fa-pen-to-square"></i>
+          <i className="fa-regular fa-pen-to-square icon"></i>
         </button>
         <button
           onClick={() => {
             handleDeleteTodo(index);
           }}
         >
-          <i className="fa-solid fa-trash"></i>
+          <i className="fa-solid fa-trash icon"></i>
         </button>
       </div>
     </li>

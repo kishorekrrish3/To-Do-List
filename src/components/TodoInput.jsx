@@ -14,6 +14,9 @@ export default function TodoInput(props) {
       />
       <button
         onClick={() => {
+          if (todoValue === "") {
+            return;
+          }
           handleAddTodos(todoValue);
           setTodoValue("");
         }}

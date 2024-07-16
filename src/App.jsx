@@ -55,6 +55,7 @@ function App() {
         handleEditTodo={handleEditTodo}
         handleDeleteTodo={handleDeleteTodo}
       />
+      <p className="footer">Developed by Marshmello.</p>
     </>
   );
 }
